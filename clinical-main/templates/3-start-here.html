@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Community Hub Finder </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body>
+    <div class="background-container">
+        <div class="survey-container"></div>
+
+        <div class="heading">
+          <a href="1-homepage.html" class="logo">CliniCAL! MATCH</a>
+            <u1 class="menu-items">
+              <li><a href="2-community-hub.html">Community Hub Finder</a></li>
+              <li><a href="#">Booklets</a></li>
+              <li><a href="#">Our Impact</a></li>
+              <li><a href="#">About Us</a></li>
+            </u1>
+          </div>
+
+        <!-- Main content area -->
+        <div class="form-content">
+
+          <!-- Community Hub Finder form -->
+          <form method="get" action="4-result.html">
+            <label for="clinical-trial-type">Clinical Trial Type:</label>
+            <input type="text" id="clinical-trial-type" name="clinical_trial_type">
+            <label for="disease-focus">Disease Focus:</label>
+            <input type="text" id="disease-focus" name="disease_focus">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">--Please select--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Non-binary">Non-binary</option>
+            </select>
+
+            <label for="race-ethnicity">Race/Ethnicity:</label>
+            <select id="race-ethnicity" name="race_ethnicity">
+                <option value="">--Please select--</option>
+                <option value="White">White</option>
+                <option value="Black">Black</option>
+                <option value="Hispanic">Hispanic</option>
+                <option value="Asian">Asian</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="education-level">Education Level:</label>
+            <select id="education-level" name="education_level">
+                <option value="">--Please select--</option>
+                <option value="Less than high school">Less than high school</option>
+                <option value="High School">High school</option>
+                <option value="Some college">Some college</option>
+                <option value="Bachelor">Bachelor</option>
+                <option value="Graduate">Graduate</option>
+            </select>
+
+            <label for="income">Income:</label>
+            <input type="number" id="income" name="income">
+
+            <button type="submit">Find Top Community Hubs</button>
+            </form>
+          </div>
+    </div>
+  </body>
+
+
+</html>
